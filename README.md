@@ -1,3 +1,4 @@
+```
 import todo from "./core.ts"; // módulo com funções da lista (get, add, update, remove)
 
 const server = Bun.serve({
@@ -100,3 +101,4 @@ const server = Bun.serve({
 });
 
 console.log(`Server running at http://localhost:${server.port}`); // log servidor
+```
